@@ -1,5 +1,2 @@
 #!/bin/bash
-echo "Enter some text:"
-read input
-output=$(echo "$input" | tr -d 'cC')
-echo "Result: $output"
+tr -d "cC"
